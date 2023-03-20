@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b447b9bb6ee75ff4e89e403af71eacf8, type: 3}
+  m_Name: _Stat Sheet
+  m_EditorClassIdentifier: 
+  Walk: {fileID: 11400000, guid: a16ff57268647384d9a84f61c47fb10d, type: 2}
+  Run: {fileID: 11400000, guid: e0f52d592fbfdf541b258244dfc1fc3c, type: 2}
+  JumpWalk: {fileID: 11400000, guid: 39f56d966a0e0554c8199ecbb54cb615, type: 2}
+  JumpRun: {fileID: 11400000, guid: 64de2bbe4b0d5eb419a5077d53294279, type: 2}
+  Float: {fileID: 11400000, guid: 6969b0983df6c6843be5eef32b29b370, type: 2}
+  Fall: {fileID: 11400000, guid: 281b3732becab724483fec0c720f4642, type: 2}
