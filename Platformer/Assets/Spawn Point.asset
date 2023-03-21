@@ -9,11 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f33b8c7812e5e70439dd64ccf48cd8f4, type: 3}
-  m_Name: Jump Walk
+  m_Script: {fileID: 11500000, guid: effe9a1affeae5445af7641fc224bd0e, type: 3}
+  m_Name: Spawn Point
   m_EditorClassIdentifier: 
-  GravityScale: 4
-  FallMin: 5
-  Animation: {fileID: 0}
-  Velocity: {x: 0, y: 16.5}
-  MoveSpeed: 10
+  Value: {x: 0, y: 0}

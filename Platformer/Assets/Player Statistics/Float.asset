@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GravityScale: 0.6
   FallMin: 5
-  MoveSpeed: 8
+  MoveSpeed: 9
+  FloatCount: 1

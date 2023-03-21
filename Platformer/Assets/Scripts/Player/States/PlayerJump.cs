@@ -34,7 +34,7 @@ public class PlayerJump : State
             if (_player.GroundCheck.IsGrounded())
                 StateMachine.SetState(new PlayerIdle(_player));
 
-            if (_player.IsHoldingJump)
+            if (_player.IsHoldingJump && 0 < _player.RemainingFloats)
                 StateMachine.SetState(new PlayerFloat(_player, _player.StatSheet.Float));
         }
         //Debug.Log(IsFalling);

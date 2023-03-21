@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f33b8c7812e5e70439dd64ccf48cd8f4, type: 3}
   m_Name: Jump Run
   m_EditorClassIdentifier: 
-  GravityScale: 5
+  GravityScale: 6
   FallMin: 5
   Animation: {fileID: 0}
-  Velocity: {x: 0, y: 18}
+  Velocity: {x: 0, y: 20}
   MoveSpeed: 13

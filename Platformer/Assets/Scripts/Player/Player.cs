@@ -11,6 +11,8 @@ public class Player : StateMachine
     bool isFacingRight = true; 
     [HideInInspector] public Rigidbody2D Rb;
     [HideInInspector] public GroundCheck GroundCheck;
+    public int RemainingFloats;
+
     public override State InitialState()
     {
         return new PlayerIdle(this);
@@ -19,6 +21,7 @@ public class Player : StateMachine
     {
         Rb = GetComponent<Rigidbody2D>();
         GroundCheck = GetComponent<GroundCheck>();
+        RemainingFloats = StatSheet.Float.FloatCount;
     }
     public void Flip()
     {

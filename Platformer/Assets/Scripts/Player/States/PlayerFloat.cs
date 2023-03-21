@@ -6,7 +6,6 @@ public class PlayerFloat : State
 {
     Player _player;
     FloatStat  _stat;
-
     public PlayerFloat(Player stateMachine, FloatStat floatStat) : base(stateMachine)
     {
         _player = (Player)stateMachine;
@@ -17,6 +16,7 @@ public class PlayerFloat : State
         base.Enter();
         _player.Rb.velocity = Vector2.zero;
         _player.Rb.gravityScale = _stat.GravityScale;
+        _player.RemainingFloats--;
     }
     public override void Update()
     {
@@ -27,7 +27,9 @@ public class PlayerFloat : State
 
 
         if (_player.GroundCheck.IsGrounded() && _stat.IsFalling(_player.Rb))
+        {
             StateMachine.SetState(new PlayerIdle(_player));
+        }
 
         if (!_player.IsHoldingJump)
             StateMachine.SetState(new PlayerJump(_player, _player.StatSheet.Fall));

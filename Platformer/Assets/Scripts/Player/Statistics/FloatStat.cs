@@ -6,4 +6,6 @@ using UnityEngine;
 public class FloatStat : AirStat
 {
     public float MoveSpeed;
+    public int FloatCount = 1;
+
 }

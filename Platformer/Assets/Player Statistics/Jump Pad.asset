@@ -15,5 +15,5 @@ MonoBehaviour:
   GravityScale: 4
   FallMin: 5
   Animation: {fileID: 0}
-  Velocity: {x: 0, y: 25}
+  Velocity: {x: 0, y: 27}
   MoveSpeed: 8

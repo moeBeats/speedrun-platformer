@@ -12,6 +12,8 @@ public class PlayerIdle : PlayerGrounded
     public override void Enter()
     {
         base.Enter();
+        _player.RemainingFloats = _player.StatSheet.Float.FloatCount;
+
     }
     public override void Update()
     {
